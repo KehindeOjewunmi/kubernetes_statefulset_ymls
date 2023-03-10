@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: medilab-mysql-pv
-  namespace: medilab-db-ns
+  namespace: medilab-db-ns #specify the namespace for your deployment
 spec:
   capacity:
     storage: 4Gi
